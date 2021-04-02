@@ -131,32 +131,32 @@ const initialElements = [
   },
   { id: 'e1-2', source: '1', target: '2',
     data: { text: 'edge' }, animated: true, arrowHeadType: ArrowHeadType.ArrowClosed,  style:{ stroke: 'red' },
-    label: 'label', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
+    label: 'params', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 },
     },
   { id: 'e2-2a', source: '2', target: '2a', 
     data: { text: 'edge' }, animated: true, arrowHeadType: ArrowHeadType.ArrowClosed,  style:{ stroke: 'red' },
-    label: 'label', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
+    label: 'params', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 },
     },
   { id: 'e2-3', source: '2', target: '3',
     data: { text: 'edge' }, animated: true, arrowHeadType: ArrowHeadType.ArrowClosed,  style:{ stroke: 'red' },
-    label: 'label', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
+    label: 'params', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 }
     },
   { id: 'e3-4', source: '3', target: '4',
     data: { text: 'edge' }, animated: true, arrowHeadType: ArrowHeadType.ArrowClosed,  style:{ stroke: 'red' },
-    label: 'label', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
+    label: 'params', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 }
     },
   { id: 'e3-3a', source: '3', target: '3a',
     data: { text: 'edge' }, animated: true, arrowHeadType: ArrowHeadType.ArrowClosed,  style:{ stroke: 'red' },
-    label: 'label', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
+    label: 'params', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 }
     },
   { id: 'e3-5', source: '4', target: '5',
     data: { text: 'edge' }, animated: true, arrowHeadType: ArrowHeadType.ArrowClosed,  style:{ stroke: 'red' },
-    label: 'label', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
+    label: 'params', labelBgPadding: [8, 4], labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 }
     },
   {
@@ -165,9 +165,9 @@ const initialElements = [
     target: '6',
     label: (
       <>
-        <tspan>i am using</tspan>
+        <tspan>alpha, beta</tspan>
         <tspan dy={10} x={0}>
-          {'<tspan>'}
+          {'gamma, theta'}
         </tspan>
       </>
     ),
@@ -178,7 +178,7 @@ const initialElements = [
     id: 'e5-7',
     source: '5',
     target: '7',
-    label: 'label with styled bg',
+    label: 'some hyper params',
     labelBgPadding: [8, 4],
     labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 },
@@ -189,7 +189,7 @@ const initialElements = [
     source: '5',
     target: '8',
     type: 'custom',
-    data: { text: 'custom edge' },
+    data: { text: 'regularization params' },
     arrowHeadType: ArrowHeadType.ArrowClosed,
   },
 ];
