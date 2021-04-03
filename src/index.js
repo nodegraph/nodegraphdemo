@@ -200,7 +200,7 @@ const edgeTypes: EdgeTypesType = {
 };
 
 
-const graphStyles = { width: "100%", height: "500px" };
+const graphStyles = { width: "100%", height: "450px" };
 
 const EdgesFlow = () => {
   const [elements, setElements] = useState(initialElements);
